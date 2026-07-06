@@ -111,7 +111,7 @@ export default async function HomePage() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/30 to-transparent" />
               
               <div className="z-10 text-white flex flex-col gap-1 w-full">
                 <h4 className="font-serif text-lg font-semibold flex items-center justify-between">
